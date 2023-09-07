@@ -1,0 +1,180 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+body > div {
+  flex: 1;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-links {
+  display: flex;
+  gap: 16px;
+  margin: 8px;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+.introduction-div {
+  display: flex;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  justify-content: space-around;
+}
+
+.awesome-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.awesome {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.awesome .sub {
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 24px;
+  border-radius: 8px;
+}
+
+.signup-button {
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+}
+
+.signup-action button {
+  border: 1px solid white;
+  align-self: center;
+  margin: 25px 25px;
+}
+
+.awesome-img {
+  padding: 0 32px;
+  height: 239px;
+  width: 524px;
+}
+
+.information-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 72px;
+}
+
+.information-header {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  padding: 16px;
+}
+
+.information-cards {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.card {
+  width: 150px;
+}
+
+.card-img {
+  border: 3px solid royalblue;
+  border-radius: 16px;
+  padding: 0;
+  margin: 0;
+}
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e5e7eb;
+}
+
+.quote-div {
+  padding: 75px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-self: center;
+}
+
+.quote-div .sub {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: 700;
+  align-self: flex-end;
+}
+
+.signup-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-action {
+  background-color: royalblue;
+  color: white;
+  margin: 50px 200px;
+  padding: 20px 100px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+.signup-action > .signup-intro > .signup-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer-div {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 25px 0px;
+}
